@@ -1,0 +1,30 @@
+{
+    "name": "ArduinoLogging",
+    "version": "1.0.2",
+    "description": "Arduino Logging",
+    "keywords": "",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/ArduinoNodeUtils/ArduinoLogging.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Jan Hermes",
+        "email": "mail@hermes-technology.de",
+        "url": "http://www.hermes-technology.de"
+      }
+    ],
+    "license": "BSD 3-Clause",
+    "homepage": "",
+    "dependencies": [
+      {
+	      "name": "ArduinoForNative",
+        "external-repo": "git@github.com:ArduinoNodeUtils/ArduinoForNative.git",
+        "platforms": ["native"]
+      }
+    ],
+    "frameworks": "*",
+    "platforms": "*"
+  }
